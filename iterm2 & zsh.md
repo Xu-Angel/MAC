@@ -6,6 +6,10 @@
 
 - hotkey Hotkey 下的 Show/hide iTerm2 with a system-wide hotkey,这样可以通过全局热键来打开或关闭 iTerm2 窗口，非常方便
 
+- 打开新窗口停留在上一次的路径,Profiles ->> General ->> 选择Reuse Pevious session's directory
+
+- 修改字体大小和行间距,Profiles ->> 在右侧 Tabs 中选择 Text 选项 ->> 找到 Font 选项，点击进入字体配置
+
 ### 常用快捷键
 
 - ⌘+T 打开一个新的标签页
