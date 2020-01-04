@@ -36,27 +36,15 @@
 
 - 使用希捷自带的免费Paragon NTFS for Mac
 
-### 小工具
-
-- 腾讯出品的QQ安全管家
-- 腾讯出品的Lemon（内测中，需要邀请码）
-- 修正鼠标使用 iMouse
 ### 随时记下闪现的灵感
 
 人的一天中大脑会产生大约6万个想法, 其中有不少优秀的 idea. 如果我们能学会捕捉哪怕是部分灵感, 也将会收获巨大. 因此工作中需要及时地记下闪现的灵感, 以方便闲暇时温故而知新. 这里推荐两个笔记应用: ① [Evernote](https://www.yinxiang.com/) ② [OneNote](http://www.onenote.com/) . (注: Evernote速记快捷键Control+Command+N)
 
-### Markdown编辑器
+### 显示安全性与隐私的任何来源
 
-目前可供选择的markdown编辑器非常之多，至少以下有六种:
-
-1. [Typora](http://www.typora.io/), 简洁轻便免费, 独有的所见即所得, 可在预览状态下编辑, 快捷键丰富, 脚本高亮功能出彩, 导出为pdf后, 排版同样正常, 这点非常难得, 笔者使用的就是该款.
-2. [Ulysses](http://www.ulyssesapp.com/), 功能强大, 快捷键丰富, 支持目录导入, 支持多终端同步.
-3. [MWeb Lite](http://www.pc6.com/mac/161974.html),  [MWeb](http://zh.mweb.im/)的微型版, 不收费, 支持目录导入.
-4. [macdown](http://macdown.uranusjr.com/), 基于mou开发, 轻量, 不支持目录导入.
-5. [mou](http://25.io/mou/) 历史悠久, 据说有少量的bug, 具体请参考 [Mac 下两款 Markdown 编辑器 Mou/MacDown 大 PK \- 简书](http://www.jianshu.com/p/6c157af09e84) .
-6. [markeditor](http://markeditor.com/app/markeditor), 注重视觉感受, 界面不错, 但运行较慢.
-
-以上, 推荐开发使用 Typora, 产品等使用 Ulysses.
+```bash
+sudo spctl --master-disable
+```
 
 ### Mac重度依赖者
 
@@ -170,13 +158,6 @@
 - [Merge Windows](https://chrome.google.com/webstore/detail/merge-windows/mmpokgfcmbkfdeibafoafkiijdbfblfg) 合并所有浏览器窗口为同一个窗口.
 - [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) 键盘党必备, 使用vim命令管理页面.
 - [Vysor](https://chrome.google.com/webstore/detail/vysor/gidgenkbbabolejbgbpnhbimgjbffefm) mac上直接操作 Android 手机, 且可远程共享手机操作界面.
-
-#### 网站有关
-
-- [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc) Github重度依赖者必备, 提供左侧边栏, 快速浏览仓库内容. 
-- [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom) 超强去广告工具, 最受欢迎的Chrome扩展, 拥有超过4000万用户.
-- [阅读模式](https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl) 快速开启阅读模式, 进入沉浸式阅读, 并非支持所有网页.
-- [Blipshot](https://chrome.google.com/webstore/detail/blipshot-one-click-full-p/mdaboflcmhejfihjcbmdiebgfchigjcf?utm_source=chrome-ntp-icon) 全网页截图工具, 支持自动垂直滚动, 截取网页的所有内容为一张图片.
 
 #### Chrome Extension开发
 
