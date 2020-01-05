@@ -4,18 +4,6 @@
 
 [mac OS 使用手册](https://support.apple.com/zh-cn/guide/mac-help/mh35835/mac)
 
-工欲善其事必先利其器!
-
-还记得: 刚参加工作的时候, 有位开发的同事软件使用效率奇高. 我曾亲眼目睹他在几秒之内打开开发软件, 优雅地调出隐藏的功能, 输入数据输出结果的过程行云流水, 一气呵成, 而手指却始终不曾离开键盘. 吃惊的同时, 不仅发现提高开发效率是多么的重要! 这便有了本篇文字.
-
-本文侧重开发且兼顾产品同学, 工具分享会涉及到:
-
-1. PM或博客撰写者markdown编辑器推荐
-2. mac重度依赖者应用推荐
-3. 终端便捷工具推荐
-4. Chrome Extension及扩展插件开发
-5. Alfred workflow 自制及开源的推荐
-
 ### 支持NTFS
 
 - 原生方式
@@ -35,10 +23,6 @@
   ```
 
 - 使用希捷自带的免费Paragon NTFS for Mac
-
-### 随时记下闪现的灵感
-
-人的一天中大脑会产生大约6万个想法, 其中有不少优秀的 idea. 如果我们能学会捕捉哪怕是部分灵感, 也将会收获巨大. 因此工作中需要及时地记下闪现的灵感, 以方便闲暇时温故而知新. 这里推荐两个笔记应用: ① [Evernote](https://www.yinxiang.com/) ② [OneNote](http://www.onenote.com/) . (注: Evernote速记快捷键Control+Command+N)
 
 ### 显示安全性与隐私的任何来源
 
@@ -114,50 +98,9 @@ sudo spctl --master-disable
 - [HyperSwitch](https://bahoom.com/hyperswitch) 带有预览图的快速切换, 作用同Command+Tab.
 - [Fruit Juice](http://www.pc6.com/mac/119197.html) 电池管理应用, 帮助延迟电池的使用时间.
 
-### 终端命令
-
-- [ohmyzsh](http://ohmyz.sh/) shell有很多种, 常用的bash就是之一. 而zsh是shell中目前最强大的, 没有之一. ohmyzsh屏蔽了zsh复杂的配置, 真正达到了一键上手zsh的目的.
-
-  ```bash
-  # Mac下自动安装&设置
-  wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
-  # 设置 shell 默认使用 zsh
-  chsh -s /bin/zsh
-  #在 dock 栏右键退出终端, 然后重启终端~安装完成
-  ```
-
-- [autojump](https://github.com/wting/autojump) 支持快速跳转到曾经打开过的目录下,安装方法: brew install autojump .
-
-- [tmux](http://tmux.github.io/) 终端复用工具, 支持在终端中创建不依赖于终端的窗口, 安装方法: brew install tmux. 使用请参考：[Tmux使用手册](http://louiszhai.github.io/2017/09/30/tmux/).
-
 ### Chrome Extension篇
 
 - [谷粒Chrome插件英雄榜](https://github.com/zhaoolee/ChromeAppHeroes) chrome优秀插件合集
-
-#### 自制
-
-- [Iheader](https://github.com/Louiszhai/IHeader) 监听和修改http/https请求/响应头，可用于渗透测试（笔者修改请求头用于跨域调试，特别好用）。
-- [Qrcode](https://chrome.google.com/webstore/detail/qrcode/cmpjmgpafdgofigbhbneckneoakpdhag?utm_source=chrome-ntp-icon) URL生成二维码，如果网页中包含选中文本，则生成选中文本的二维码。
-
-#### 前端有关
-
-- [whistle](http://wproxy.org/whistle/) node实现的抓包工具，配合chrome扩展，可基于chrome完成抓包，代理，甚至可基于js生成mock数据，完全可替代charles。
-- [YSlow](https://chrome.google.com/webstore/detail/yslow/ninejjcohidippngpapiilnmkgllmakh) 雅虎性能分析工具.
-- [FE助手](https://chrome.google.com/webstore/detail/web%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8Bfehelper/pkgccpejnmalmdinmhkkfafefagiiiad0) 百度推出的前端助手, 具有很多便捷的小功能.
-- [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) 接口调试工具, 几乎支持所有类型的http(s)请求.
-- [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?utm_source=chrome-ntp-icon) cookie编辑工具, 可用于获取或设置http only等cookie的值.
-- [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) json预览工具, 接口调试必备.
-- [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn) 页面尺子, 页面重构或者严格按照设计图开发页面时, 将会非常有用.
-- [Alexa Traffic Rank](https://chrome.google.com/webstore/detail/alexa-traffic-rank/cknebhggccemgcnbidipinkifmmegdel) 网站Alexa排名查看工具.
-- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) React开发者工具.
-- [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) Redux开发者工具.
-
-#### 工作效率有关
-
-- [OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall) 快速关闭并存储浏览器当前窗口所有Tab页, 可用于下次一键全部恢复.
-- [Merge Windows](https://chrome.google.com/webstore/detail/merge-windows/mmpokgfcmbkfdeibafoafkiijdbfblfg) 合并所有浏览器窗口为同一个窗口.
-- [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) 键盘党必备, 使用vim命令管理页面.
-- [Vysor](https://chrome.google.com/webstore/detail/vysor/gidgenkbbabolejbgbpnhbimgjbffefm) mac上直接操作 Android 手机, 且可远程共享手机操作界面.
 
 #### Chrome Extension开发
 
@@ -166,23 +109,3 @@ sudo spctl --master-disable
 - [Sample Extensions - Google Chrome](https://developer.chrome.com/extensions/samples)
 - [图灵社区: 合集 : Chrome扩展及应用开发](http://www.ituring.com.cn/minibook/950)
 - [Google Chrome扩展开发系列](http://www.cnblogs.com/champagne/tag/Google%20Chrome%E6%89%A9%E5%B1%95/)
-
-### Alfred workflow
-
-我曾经耗费巨大的精力, 试图在计算机的使用效率上找到一条优化的策略, 一直以来都收效甚微. 直到遇上Alfred, 它强大的工作流机制, 才让我明白原来计算机可以这么玩. 因为**它彻底解决了输入输出的痛点, 极大的减少了程序之间的切换成本以及按键成本**.
-
-传统意义上, 使用mac时, 为了查询一个单词, 或者翻译一个单词, 我们要么经历五步: ① 手动打开浏览器 ② 进入谷歌首页 ③ 选中输入框 ④ 输入或粘贴查询单词, 然后空格并加上"翻译" 两个字, 然后再回车 ⑤ 等待浏览器展示查询结果; 要么经历四步: ① 打开翻译应用(比如自带词典) ② 输入或粘贴查询单词 ③ 翻译应用输出查询结果 ④ 查询过后, 一般都需要Command+Q退出应用(否则Dock栏将会全是未关闭的应用).
-
-查询单词这个场景中, 我们至少需要兴师动众, 切换或打开一个应用两次, 定位输入框一次,  输入或复制粘贴一次. 且查询结果页也会挡住当前的工作区, 使得我们分心, 甚至忘记自己刚刚在做啥. 五个字 — 体验不流畅. 
-
-而 Alfred 的工作流正是为了解决这个问题而设计的. 如果我们使用网友开发的 [`有道词典`](https://github.com/Louiszhai/tool/blob/master/workflow/youdao.alfredworkflow?raw=true) 的 workflow, **最快只需通过两次按键便可获取单词的查询结果**. 假如: 为了查询单词"workflow", 我会选中单词所在区域, 然后按住 Option+Y 键(我已将有道翻译的快捷键设置为 Option+Y), 单词查询结果就出来了, 而且不需要切换应用, 同时查询结果也较少的挡住工作区了. 如下:
-
-![有道词典][youdao-image]
-
-以上 Alfred 界面使用了少数派的主题. 
-
-有关其他的workflow 内容, 请移步 [`Alfred Workflows`](https://github.com/Louiszhai/alfred-workflows) , 那里会有更多非常不错的 workflow 供您选用.
-
-
-
-[youdao-image]: https://github.com/Louiszhai/tool/blob/master/images/shortcuts-youdao.png
