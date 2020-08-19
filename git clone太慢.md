@@ -35,3 +35,5 @@
   ```bash
   sudo killall -HUP mDNSResponder
   ```
+
+- 设置终端代理
