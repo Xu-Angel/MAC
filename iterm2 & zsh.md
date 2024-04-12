@@ -6,7 +6,7 @@
 
 - hotkey Hotkey 下的 Show/hide iTerm2 with a system-wide hotkey,这样可以通过全局热键来打开或关闭 iTerm2 窗口，非常方便
 
-- 打开新窗口停留在上一次的路径,Profiles ->> General ->> 选择Reuse Pevious session's directory
+- 打开新窗口停留在上一次的路径,Profiles ->> General ->> 选择 Reuse Pevious session's directory
 
 - 修改字体大小和行间距,Profiles ->> 在右侧 Tabs 中选择 Text 选项 ->> 找到 Font 选项，点击进入字体配置
 
@@ -21,6 +21,22 @@
 - `⌘+[`、`⌘+]`、⌘+Option+方向键 切换 pane
 - ⌘+D 水平切分屏幕，⌘+Shift+D 垂直切分屏幕
 - ⌘+Enter 进入与返回全屏模式
+- Ctrl + A 跳转到你当前编辑的命令行行首
+- Ctrl + E 跳转到你当前编辑的命令行行尾
+- Ctrl + L 清屏，和 clear 指令类似
+- Ctrl + U 清除行中光标之前的内容（在行尾时即清除整行）
+- Ctrl + H 和退格一样
+- Ctrl + R 能让你搜索之前使用过的命令行记录
+- Ctrl + C 强制停止当前的程序
+- Ctrl + D 退出当前 shell （壳层/命令行界面）
+- Ctrl + Z 将当下运行的程序挂起，使用 fg 来恢复运行
+- Ctrl + W 删除光标前的一个词
+- Ctrl + K 清除行中光标之后的内容
+- Ctrl + T 交换光标前两个字符
+- Esc + T 交换光标前两个词
+- Alt + F 将光标移至行内下一个词处
+- Alt + B 将光标移至行内上一个词处
+- Tab 自动补全文件/目录的名称
 
 ## zsh
 
